@@ -25,7 +25,7 @@ const Signin = () => {
         className="auth__form display-flex  flex-direction-c"
         onSubmit={handleSubmit}
       >
-        <h2>Sign in to twitter clone</h2>
+        <h2>Sign in to Social X</h2>
         <input type="text" name="username" placeholder="Username or email" />
         <input type="password" name="password" placeholder="Password" />
         <small>{errors && errors[0].msg}</small>

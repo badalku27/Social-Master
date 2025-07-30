@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaTwitter } from "react-icons/all";
+import { BsPersonCircle } from "react-icons/all";
 
 function Avatar({ username, avatar, size }) {
   return (
@@ -11,7 +11,7 @@ function Avatar({ username, avatar, size }) {
       {avatar ? (
         <img src={`${avatar}?${Date.now()}`} alt="avatar" loading="lazy" />
       ) : (
-        <FaTwitter />
+        <BsPersonCircle />
       )}
     </Link>
   );

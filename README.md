@@ -1,8 +1,8 @@
-# Twitter Clone 💡
+# Social X 💡
 
 ## Overview 📹
 
-This is my first fullstack web application. I've used MongoDB as a database , ReactJS for the frontend , ExpressJS for the backend and Redux for the global states. Follow the guide below to install the application to your desktop and run it locally. If you want to contribute to this project , please fork the repository [here](https://github.com/mithatercann/twitter-clone/fork). If you are new please check [GitHub for beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/). 
+This is a fullstack social media web application. I've used MongoDB as a database , ReactJS for the frontend , ExpressJS for the backend and Redux for the global states. Follow the guide below to install the application to your desktop and run it locally. If you want to contribute to this project , please fork the repository [here](https://github.com/badalku27/Social-Master/fork). If you are new please check [GitHub for beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/). 
 <br />
 <br />
 
@@ -23,7 +23,7 @@ This is my first fullstack web application. I've used MongoDB as a database , Re
 ## Start the app locally 🔌
 First please clone this repository 
 ```bash
-git clone https://github.com/mithatercann/twitter-clone.git
+git clone https://github.com/badalku27/Social-Master.git
 ```
 
 ### Environment setup
@@ -31,7 +31,7 @@ git clone https://github.com/mithatercann/twitter-clone.git
 First create .env file to server folder
 
 ```bash
-cd twitter-clone/server
+cd Social-X/server
 
 touch .env
 ```
@@ -55,10 +55,10 @@ MONGODB_URI = ??? if you don't have mongodb installed.
 
 ### Server 🔧
 
-Go server folder and install the requirements and start the server. You can check the endpoints located on [client/src/api/urls](https://github.com/mithatercan/twitter-clone/blob/master/client/src/api/urls.js)
+Go server folder and install the requirements and start the server. You can check the endpoints located on [client/src/api/urls](https://github.com/badalku27/Social-Master/blob/master/client/src/api/urls.js)
 
 ```bash
-cd twitter-clone/server
+cd Social-X/server
 
 npm install
 
@@ -70,7 +70,7 @@ npm start
 Go client folder and install the requirements and start the client app.
 
 ```bash
-cd twitter-clone/client
+cd Social-X/client
 
 npm install
 

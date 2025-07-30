@@ -31,11 +31,11 @@
       &:not([type="submit"]) {
         margin: 0.6em 0;
         &:focus {
-          outline: 3px solid $light-blue;
+          outline: 3px solid $light-green;
         }
       }
       &[type="submit"] {
-        background-color: $light-blue;
+        background-color: $light-green;
         color: $white;
         cursor: pointer;
         margin: 1em 0;

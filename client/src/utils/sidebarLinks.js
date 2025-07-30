@@ -2,7 +2,7 @@ import {
   RiHome4Line,
   FiHash,
   FiMail,
-  FaTwitter,
+  BsLightbulb,
   IoMdNotificationsOutline,
   BsBookmark,
   CgProfile,
@@ -12,8 +12,8 @@ const sidebarLinks = [
   {
     text: "",
     path: "/",
-    icon: FaTwitter,
-    class: "twitter",
+    icon: BsLightbulb,
+    class: "social-x",
   },
   {
     text: "Home",

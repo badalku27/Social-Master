@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { GoPerson, BsTwitter } from "react-icons/all";
+import { GoPerson, BsLightbulb } from "react-icons/all";
 function Notifications() {
   const { data } = useSelector((state) => state.currentProfile);
   const notifications = data.notifications;
@@ -17,7 +17,7 @@ function Notifications() {
         } else {
           return (
             <div key={idx} className="notification display-flex align-items-c">
-              <BsTwitter />
+              <BsLightbulb />
               <p>{notification.message}</p>
             </div>
           );

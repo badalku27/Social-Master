@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(express.static("uploads"));
 
 app.get("/", (req, res) => {
-  res.send("Twitter clone 🥳");
+  res.send("Social X 🥳");
 });
 
 // PFORILE ROUTES

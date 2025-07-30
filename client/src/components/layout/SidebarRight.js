@@ -5,7 +5,7 @@ function SidebarRight() {
     <aside className="sidebar-right ">
       <input type="search" placeholder="Search tweets" />
       <div className="trends">
-        <h3>Trends for you</h3>
+        <h3>Top 5 Trends 2025 - Badal Singh</h3>
         <TrendsCard />
         <a>Show more</a>
       </div>

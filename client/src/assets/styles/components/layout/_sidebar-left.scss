@@ -5,7 +5,7 @@
   right: 0;
   border-top: 1px solid $light-gray;
   padding: 0.6em 2em;
-  background-color: $dark-blue;
+  background-color: $dark-green;
   z-index: 10;
   &__card {
     display: none;
@@ -44,7 +44,7 @@
       width: 300px;
       padding: 1em 0;
       border-radius: 20px;
-      background-color: $dark-blue;
+      background-color: $dark-green;
       box-shadow: 0 0 10px $light-gray;
       bottom: 4em;
       left: 1em;
@@ -61,7 +61,7 @@
         padding: 1em 1.2em;
 
         &:hover {
-          background-color: $smooth-blue;
+          background-color: $smooth-green;
         }
       }
       &.opened {
@@ -100,19 +100,19 @@
       transition: 0.1s;
       border-radius: 30px;
       &.active {
-        color: $light-blue;
+        color: $light-green;
       }
 
       &:hover {
         background-color: #1c2731;
       }
       &--tweet {
-        background-color: $light-blue;
+        background-color: $light-green;
         justify-content: center;
         padding: 0.8em 0;
         margin-top: 1em;
         &:hover {
-          background-color: $light-blue;
+          background-color: $light-green;
           opacity: 0.8;
           color: $white;
         }

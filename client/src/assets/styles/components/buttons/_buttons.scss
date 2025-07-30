@@ -1,6 +1,6 @@
 .tweet-btn {
   display: flex;
-  background-color: $light-blue;
+  background-color: $light-green;
   color: $white;
   padding: 0.6em;
   border-radius: 50%;
@@ -54,7 +54,7 @@
     inset: 0;
     opacity: 0;
     z-index: 1;
-    background-color: $dark-blue;
+    background-color: $dark-green;
   }
 
   &:hover {
@@ -91,7 +91,7 @@
       margin-right: 0.4em;
     }
     &:hover {
-      color: $light-blue;
+      color: $light-green;
     }
   }
   &__bookmark {
